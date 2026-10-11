@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b9fa1d2.css",
-    "main.js": "/static/js/main.19c25f1f.js",
-    "index.html": "/index.html",
-    "main.4b9fa1d2.css.map": "/static/css/main.4b9fa1d2.css.map",
-    "main.19c25f1f.js.map": "/static/js/main.19c25f1f.js.map"
+    "main.css": "/shark-frontend/static/css/main.4b9fa1d2.css",
+    "main.js": "/shark-frontend/static/js/main.19c25f1f.js",
+    "index.html": "/shark-frontend/index.html",
+    "main.4b9fa1d2.css.map": "/shark-frontend/static/css/main.4b9fa1d2.css.map",
+    "main.19c25f1f.js.map": "/shark-frontend/static/js/main.19c25f1f.js.map"
   },
   "entrypoints": [
     "static/css/main.4b9fa1d2.css",
