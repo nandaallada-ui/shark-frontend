@@ -1,6 +1,7 @@
 {
-  "name": "frontend",
+  "name": "shark-frontend",
   "version": "0.1.0",
+  "homepage": "https://nandaallada-ui.github.io/shark-frontend",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
