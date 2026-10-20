@@ -1,3 +1,28 @@
-body { 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+:root {
+    --background:#95adf6;
+    --headings:#181818;
+    --mnav:#1e63ec;
+    --lightxt:#000000;
+    --headingfont: "Poppins", Verdana, sans-serif;
+    --buttonfont: "Oswald", Verdana, sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1000px) {
+    .app {
+        width: 80%;
+        margin: auto;
+    }
 }

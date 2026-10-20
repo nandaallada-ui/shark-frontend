@@ -1,0 +1,10 @@
+.nav-menu {
+  background: var(--mnav);
+  padding: 12px 0;
+}
+
+@media (min-width: 1000px) {
+  .nav-list {
+    display: flex;
+  }
+}
