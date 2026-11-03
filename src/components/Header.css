@@ -2,3 +2,39 @@
   background-color: var(--background);
   position: relative;
 }
+
+.nav-check {
+  position: absolute;
+  opacity: 0;
+}
+
+.nav-check:focus-visible + #navtoggle {
+  outline: 3px solid var(--headings);
+}
+
+#navtoggle {
+  display: block;
+  margin: 0 14px 12px;
+  padding: 8px 14px;
+  background: var(--mnav);
+  color: var(--accenttest);
+  cursor: pointer;
+}
+
+#mnav {
+  display: none;
+}
+
+.nav-check:checked ~ #mnav {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  #navtoggle {
+    display: none;
+  }
+
+  #mnav {
+    display: block;
+  }
+}

@@ -1,21 +1,30 @@
 import './NavMenu.css';
 import NavItem from './NavItem';
 
-const NavMenu = () => {
+const NavMenu = ({ currentPage, onNavigate }) => {
   const navlinks = [
-    { label: 'Shark facts', href: '#facts' },
-    { label: 'Shark behaviors', href: '#behaviors' },
-    { label: 'Global warming', href: '#warming' },
-    { label: 'Shark subspecies', href: '#subspecies' },
-    { label: 'Contact', href: '#contact' },
-    { label: 'Citations', href: '#citations' },
+    { label: 'Shark facts', page: 'facts' },
+    { label: 'Shark behaviors', page: 'behaviors' },
+    { label: 'Global warming', page: 'warming' },
+    { label: 'Shark subspecies', page: 'subspecies' },
+    {
+      label: currentPage === 'subspecies' ? 'contact us' : 'Contact',
+      page: 'contact',
+    },
+    { label: 'Citations', page: 'citations' },
   ];
 
   return (
-    <nav className="nav-menu">
+    <nav id="mnav" className="nav-menu">
       <ul className="nav-list">
         {navlinks.map((link) => (
-          <NavItem key={link.label} label={link.label} href={link.href} />
+          <NavItem
+            key={link.page}
+            label={link.label}
+            href={`#${link.page}`}
+            current={currentPage === link.page}
+            onNavigate={onNavigate}
+          />
         ))}
       </ul>
     </nav>

@@ -1,28 +1,43 @@
 :root {
-    --background:#95adf6;
-    --headings:#181818;
-    --mnav:#1e63ec;
-    --lightxt:#000000;
-    --headingfont: "Poppins", Verdana, sans-serif;
-    --buttonfont: "Oswald", Verdana, sans-serif;
+  --background: #95adf6;
+  --headings: #181818;
+  --foot: #0d0c0c;
+  --mnav: #1e63ec;
+  --highlightbg: #5093f6;
+  --highlightfg: #3a7efe;
+  --muteddetail: #f0b1b1;
+  --lightxt: #000000;
+  --footercop: #cac6c6;
+  --accenttest: #ffffff;
+  --headingfont: 'Poppins', Verdana, sans-serif;
+  --buttonfont: 'Oswald', Verdana, sans-serif;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--background);
-    padding: 0;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3 {
+  color: #000000;
 }
 
-@media (min-width: 1000px) {
-    .app {
-        width: 80%;
-        margin: auto;
-    }
+ h1,
+h2,
+h3,
+#brand {
+  font-family: var(--headingfont);
+  letter-spacing: 0.5px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
 }
