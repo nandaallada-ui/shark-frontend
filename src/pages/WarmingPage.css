@@ -1,0 +1,13 @@
+.one,
+.two {
+  min-width: 0;
+}
+
+.one img,
+.two img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border: 2px solid var(--headings);
+}

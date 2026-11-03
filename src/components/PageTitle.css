@@ -1,0 +1,7 @@
+.page-title {
+  color: var(--headings);
+  margin: 22px 0 12px;
+  padding: 8px 0 8px 14px;
+  border-left: 6px solid var(--headings);
+  font-size: 1.7em;
+}

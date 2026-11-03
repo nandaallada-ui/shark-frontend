@@ -1,0 +1,12 @@
+.citations-topic .one {
+  min-width: 0;
+}
+
+.citations-list li {
+  margin-bottom: 12px;
+  overflow-wrap: anywhere;
+}
+
+#intro {
+  padding: 15px;
+}

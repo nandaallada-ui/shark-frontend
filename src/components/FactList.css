@@ -1,0 +1,23 @@
+.fact-list {
+  padding-left: 24px;
+}
+
+.fact-info {
+  display: inline-grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.8em;
+  font-weight: 700;
+  cursor: help;
+}
+
+.fact-info:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}

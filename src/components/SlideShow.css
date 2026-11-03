@@ -1,0 +1,39 @@
+.slideshow {
+  outline-offset: 4px;
+}
+
+.slide-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.slide-controls .arrow {
+  padding: 8px 18px;
+  border: 0;
+  background: rgb(22, 127, 127);
+  color: rgb(251, 251, 251);
+  font-family: var(--buttonfont);
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.slide-controls .arrow:focus-visible {
+  outline: 3px solid var(--headings);
+}
+
+@media (min-width: 1000px) {
+  .slide-copy,
+  .slide-picture {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .slide-picture {
+    margin-top: 15px;
+  }
+}

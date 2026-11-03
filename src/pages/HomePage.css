@@ -1,0 +1,11 @@
+.iframe-topic {
+  display: block;
+}
+
+.ocean-frame {
+  display: block;
+  width: 100%;
+  min-height: 230px;
+  border: 2px solid var(--headings);
+  background: #d9f1fb;
+}

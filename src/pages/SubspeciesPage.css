@@ -1,0 +1,15 @@
+.species-title {
+  margin-top: 22px;
+}
+
+.species-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 600px) {
+  .species-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

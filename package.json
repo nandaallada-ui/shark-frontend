@@ -10,7 +10,9 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
+    "react-hot-toast": "^2.6.1",
     "react-scripts": "5.0.1",
+    "react-tooltip": "^6.0.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,7 +22,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [

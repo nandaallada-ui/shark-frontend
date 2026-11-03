@@ -1,0 +1,12 @@
+.reading-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.behaviors-intro {
+  margin-top: 16px;
+}
+
+.behavior-section h2 {
+  font-size: 1.2em;
+}

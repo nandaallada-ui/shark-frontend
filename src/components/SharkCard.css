@@ -1,0 +1,14 @@
+.species {
+  padding: 15px;
+  background: var(--highlightbg);
+  border: 2px solid var(--headings);
+  box-shadow: 4px 4px 0 var(--headings);
+}
+
+.species img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border: 2px solid var(--headings);
+}
