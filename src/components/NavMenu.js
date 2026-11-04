@@ -7,10 +7,7 @@ const NavMenu = ({ currentPage, onNavigate }) => {
     { label: 'Shark behaviors', page: 'behaviors' },
     { label: 'Global warming', page: 'warming' },
     { label: 'Shark subspecies', page: 'subspecies' },
-    {
-      label: currentPage === 'subspecies' ? 'contact us' : 'Contact',
-      page: 'contact',
-    },
+    { label: 'Contact', page: 'contact' },
     { label: 'Citations', page: 'citations' },
   ];
 
